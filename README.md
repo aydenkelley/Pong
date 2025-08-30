@@ -1,6 +1,6 @@
-## Intro Pong Assignment
+# Intro Pong Assignment
 
-# To run:
+## To run:
 1)	Download the Pong.exe executable off of GitHub.
 2)	Double click the file to run the executable.
 3)	Player controls are shown upon running the program.
@@ -11,7 +11,7 @@
 4)	The game will loop forever until it is closed. 
 
 
-# To download and edit the Unity project:
+## To download and edit the Unity project:
 1) Download the .zip folder on GitHub. Extract its contents into a new folder. This folder will become your Unity project folder.
 2) Follow the steps on the Unity website -- https://unity.com/download -- to install the newest version of Unity. NOTE: this project was made in Unity version 6.2.
 3) Once the Unity Engine is installed (this will take a while), open up Unity Hub.
