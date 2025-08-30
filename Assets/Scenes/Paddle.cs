@@ -6,6 +6,13 @@ public class Paddle : MonoBehaviour
     public float speed;
     private float movement;
     public Rigidbody2D rb;
+    public Vector3 startPosition;
+
+
+    void Start()
+    {
+        startPosition = transform.position;
+    }
 
     // Update is called once per frame
     void Update()
@@ -19,5 +26,10 @@ public class Paddle : MonoBehaviour
 	     movement = Input.GetAxisRaw("Vertical2");
 	 }
          rb.linearVelocity = new Vector2(rb.linearVelocity.x, movement * speed); 
+    }
+    public void Reset()
+    {
+        rb.linearVelocity = Vector2.zero;
+	transform.position = startPosition;
     }
 }
